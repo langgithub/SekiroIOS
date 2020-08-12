@@ -15,6 +15,9 @@
 		DF7A950C24E3E6BD00310951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A950B24E3E6BD00310951 /* main.m */; };
 		DF7A951624E3E6BD00310951 /* SekiroIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A951524E3E6BD00310951 /* SekiroIOSTests.m */; };
 		DF7A952124E3E6BD00310951 /* SekiroIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A952024E3E6BD00310951 /* SekiroIOSUITests.m */; };
+		DF7A953424E3E6EB00310951 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A952E24E3E6EA00310951 /* GCDAsyncSocket.m */; };
+		DF7A953524E3E6EB00310951 /* SekiroNatClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A953124E3E6EA00310951 /* SekiroNatClient.m */; };
+		DF7A953624E3E6EB00310951 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A953224E3E6EB00310951 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		DF7A951C24E3E6BD00310951 /* SekiroIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SekiroIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7A952024E3E6BD00310951 /* SekiroIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SekiroIOSUITests.m; sourceTree = "<group>"; };
 		DF7A952224E3E6BD00310951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7A952E24E3E6EA00310951 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = SekiroLib/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		DF7A952F24E3E6EA00310951 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = SekiroLib/GCDAsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
+		DF7A953024E3E6EA00310951 /* SekiroNatClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SekiroNatClient.h; path = SekiroLib/SekiroNatClient.h; sourceTree = SOURCE_ROOT; };
+		DF7A953124E3E6EA00310951 /* SekiroNatClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SekiroNatClient.m; path = SekiroLib/SekiroNatClient.m; sourceTree = SOURCE_ROOT; };
+		DF7A953224E3E6EB00310951 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = SekiroLib/GCDAsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
+		DF7A953324E3E6EB00310951 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = SekiroLib/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		DF7A94FB24E3E6BD00310951 /* SekiroIOS */ = {
 			isa = PBXGroup;
 			children = (
+				DF7A953324E3E6EB00310951 /* GCDAsyncSocket.h */,
+				DF7A952E24E3E6EA00310951 /* GCDAsyncSocket.m */,
+				DF7A952F24E3E6EA00310951 /* GCDAsyncUdpSocket.h */,
+				DF7A953224E3E6EB00310951 /* GCDAsyncUdpSocket.m */,
+				DF7A953024E3E6EA00310951 /* SekiroNatClient.h */,
+				DF7A953124E3E6EA00310951 /* SekiroNatClient.m */,
 				DF7A94FC24E3E6BD00310951 /* AppDelegate.h */,
 				DF7A94FD24E3E6BD00310951 /* AppDelegate.m */,
 				DF7A94FF24E3E6BD00310951 /* ViewController.h */,
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7A953424E3E6EB00310951 /* GCDAsyncSocket.m in Sources */,
 				DF7A950124E3E6BD00310951 /* ViewController.m in Sources */,
 				DF7A950C24E3E6BD00310951 /* main.m in Sources */,
 				DF7A94FE24E3E6BD00310951 /* AppDelegate.m in Sources */,
+				DF7A953624E3E6EB00310951 /* GCDAsyncUdpSocket.m in Sources */,
+				DF7A953524E3E6EB00310951 /* SekiroNatClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
