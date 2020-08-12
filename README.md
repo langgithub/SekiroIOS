@@ -1,3 +1,4 @@
 # SekiroIOS
-Sekiro 主动 hook IOS 及时通讯部分
-访问地址： http://127.0.0.1:11001/asyncInvoke?group=wx_chat&action=yuxueyuan&d=asdfrrrewqerqwerqwreqrqw
+1. SekiroIOS是与Sekiro服务器通讯工具，完成Sekiro 主动hook命令下发到IOS端
+2. 该项目是Sekiro-lib的组件 https://github.com/langgithub/sekiro-lang
+3. Sekiro项目目前已完成 Android端 www端 IOS端通讯
