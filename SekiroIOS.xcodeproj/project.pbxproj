@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7A94FE24E3E6BD00310951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A94FD24E3E6BD00310951 /* AppDelegate.m */; };
+		DF7A950124E3E6BD00310951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A950024E3E6BD00310951 /* ViewController.m */; };
+		DF7A950424E3E6BD00310951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7A950224E3E6BD00310951 /* Main.storyboard */; };
+		DF7A950624E3E6BD00310951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7A950524E3E6BD00310951 /* Assets.xcassets */; };
+		DF7A950924E3E6BD00310951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7A950724E3E6BD00310951 /* LaunchScreen.storyboard */; };
+		DF7A950C24E3E6BD00310951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A950B24E3E6BD00310951 /* main.m */; };
+		DF7A951624E3E6BD00310951 /* SekiroIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A951524E3E6BD00310951 /* SekiroIOSTests.m */; };
+		DF7A952124E3E6BD00310951 /* SekiroIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A952024E3E6BD00310951 /* SekiroIOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7A951224E3E6BD00310951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7A94F124E3E6BD00310951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7A94F824E3E6BD00310951;
+			remoteInfo = SekiroIOS;
+		};
+		DF7A951D24E3E6BD00310951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7A94F124E3E6BD00310951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7A94F824E3E6BD00310951;
+			remoteInfo = SekiroIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7A94F924E3E6BD00310951 /* SekiroIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SekiroIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7A94FC24E3E6BD00310951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF7A94FD24E3E6BD00310951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF7A94FF24E3E6BD00310951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF7A950024E3E6BD00310951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF7A950324E3E6BD00310951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7A950524E3E6BD00310951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7A950824E3E6BD00310951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7A950A24E3E6BD00310951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7A950B24E3E6BD00310951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF7A951124E3E6BD00310951 /* SekiroIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SekiroIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7A951524E3E6BD00310951 /* SekiroIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SekiroIOSTests.m; sourceTree = "<group>"; };
+		DF7A951724E3E6BD00310951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7A951C24E3E6BD00310951 /* SekiroIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SekiroIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7A952024E3E6BD00310951 /* SekiroIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SekiroIOSUITests.m; sourceTree = "<group>"; };
+		DF7A952224E3E6BD00310951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7A94F624E3E6BD00310951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A950E24E3E6BD00310951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A951924E3E6BD00310951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7A94F024E3E6BD00310951 = {
+			isa = PBXGroup;
+			children = (
+				DF7A94FB24E3E6BD00310951 /* SekiroIOS */,
+				DF7A951424E3E6BD00310951 /* SekiroIOSTests */,
+				DF7A951F24E3E6BD00310951 /* SekiroIOSUITests */,
+				DF7A94FA24E3E6BD00310951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7A94FA24E3E6BD00310951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A94F924E3E6BD00310951 /* SekiroIOS.app */,
+				DF7A951124E3E6BD00310951 /* SekiroIOSTests.xctest */,
+				DF7A951C24E3E6BD00310951 /* SekiroIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7A94FB24E3E6BD00310951 /* SekiroIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A94FC24E3E6BD00310951 /* AppDelegate.h */,
+				DF7A94FD24E3E6BD00310951 /* AppDelegate.m */,
+				DF7A94FF24E3E6BD00310951 /* ViewController.h */,
+				DF7A950024E3E6BD00310951 /* ViewController.m */,
+				DF7A950224E3E6BD00310951 /* Main.storyboard */,
+				DF7A950524E3E6BD00310951 /* Assets.xcassets */,
+				DF7A950724E3E6BD00310951 /* LaunchScreen.storyboard */,
+				DF7A950A24E3E6BD00310951 /* Info.plist */,
+				DF7A950B24E3E6BD00310951 /* main.m */,
+			);
+			path = SekiroIOS;
+			sourceTree = "<group>";
+		};
+		DF7A951424E3E6BD00310951 /* SekiroIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A951524E3E6BD00310951 /* SekiroIOSTests.m */,
+				DF7A951724E3E6BD00310951 /* Info.plist */,
+			);
+			path = SekiroIOSTests;
+			sourceTree = "<group>";
+		};
+		DF7A951F24E3E6BD00310951 /* SekiroIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A952024E3E6BD00310951 /* SekiroIOSUITests.m */,
+				DF7A952224E3E6BD00310951 /* Info.plist */,
+			);
+			path = SekiroIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7A94F824E3E6BD00310951 /* SekiroIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7A952524E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOS" */;
+			buildPhases = (
+				DF7A94F524E3E6BD00310951 /* Sources */,
+				DF7A94F624E3E6BD00310951 /* Frameworks */,
+				DF7A94F724E3E6BD00310951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SekiroIOS;
+			productName = SekiroIOS;
+			productReference = DF7A94F924E3E6BD00310951 /* SekiroIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7A951024E3E6BD00310951 /* SekiroIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7A952824E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOSTests" */;
+			buildPhases = (
+				DF7A950D24E3E6BD00310951 /* Sources */,
+				DF7A950E24E3E6BD00310951 /* Frameworks */,
+				DF7A950F24E3E6BD00310951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7A951324E3E6BD00310951 /* PBXTargetDependency */,
+			);
+			name = SekiroIOSTests;
+			productName = SekiroIOSTests;
+			productReference = DF7A951124E3E6BD00310951 /* SekiroIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7A951B24E3E6BD00310951 /* SekiroIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7A952B24E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOSUITests" */;
+			buildPhases = (
+				DF7A951824E3E6BD00310951 /* Sources */,
+				DF7A951924E3E6BD00310951 /* Frameworks */,
+				DF7A951A24E3E6BD00310951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7A951E24E3E6BD00310951 /* PBXTargetDependency */,
+			);
+			name = SekiroIOSUITests;
+			productName = SekiroIOSUITests;
+			productReference = DF7A951C24E3E6BD00310951 /* SekiroIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7A94F124E3E6BD00310951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yuanlang;
+				TargetAttributes = {
+					DF7A94F824E3E6BD00310951 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DF7A951024E3E6BD00310951 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DF7A94F824E3E6BD00310951;
+					};
+					DF7A951B24E3E6BD00310951 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DF7A94F824E3E6BD00310951;
+					};
+				};
+			};
+			buildConfigurationList = DF7A94F424E3E6BD00310951 /* Build configuration list for PBXProject "SekiroIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7A94F024E3E6BD00310951;
+			productRefGroup = DF7A94FA24E3E6BD00310951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7A94F824E3E6BD00310951 /* SekiroIOS */,
+				DF7A951024E3E6BD00310951 /* SekiroIOSTests */,
+				DF7A951B24E3E6BD00310951 /* SekiroIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7A94F724E3E6BD00310951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A950924E3E6BD00310951 /* LaunchScreen.storyboard in Resources */,
+				DF7A950624E3E6BD00310951 /* Assets.xcassets in Resources */,
+				DF7A950424E3E6BD00310951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A950F24E3E6BD00310951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A951A24E3E6BD00310951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7A94F524E3E6BD00310951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A950124E3E6BD00310951 /* ViewController.m in Sources */,
+				DF7A950C24E3E6BD00310951 /* main.m in Sources */,
+				DF7A94FE24E3E6BD00310951 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A950D24E3E6BD00310951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A951624E3E6BD00310951 /* SekiroIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7A951824E3E6BD00310951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A952124E3E6BD00310951 /* SekiroIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7A951324E3E6BD00310951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7A94F824E3E6BD00310951 /* SekiroIOS */;
+			targetProxy = DF7A951224E3E6BD00310951 /* PBXContainerItemProxy */;
+		};
+		DF7A951E24E3E6BD00310951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7A94F824E3E6BD00310951 /* SekiroIOS */;
+			targetProxy = DF7A951D24E3E6BD00310951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7A950224E3E6BD00310951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A950324E3E6BD00310951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7A950724E3E6BD00310951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7A950824E3E6BD00310951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7A952324E3E6BD00310951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF7A952424E3E6BD00310951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7A952624E3E6BD00310951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7A952724E3E6BD00310951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7A952924E3E6BD00310951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SekiroIOS.app/SekiroIOS";
+			};
+			name = Debug;
+		};
+		DF7A952A24E3E6BD00310951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SekiroIOS.app/SekiroIOS";
+			};
+			name = Release;
+		};
+		DF7A952C24E3E6BD00310951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SekiroIOS;
+			};
+			name = Debug;
+		};
+		DF7A952D24E3E6BD00310951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD8KRQA63V;
+				INFOPLIST_FILE = SekiroIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lang.yuanlang.SekiroIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SekiroIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7A94F424E3E6BD00310951 /* Build configuration list for PBXProject "SekiroIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7A952324E3E6BD00310951 /* Debug */,
+				DF7A952424E3E6BD00310951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7A952524E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7A952624E3E6BD00310951 /* Debug */,
+				DF7A952724E3E6BD00310951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7A952824E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7A952924E3E6BD00310951 /* Debug */,
+				DF7A952A24E3E6BD00310951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7A952B24E3E6BD00310951 /* Build configuration list for PBXNativeTarget "SekiroIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7A952C24E3E6BD00310951 /* Debug */,
+				DF7A952D24E3E6BD00310951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7A94F124E3E6BD00310951 /* Project object */;
+}
